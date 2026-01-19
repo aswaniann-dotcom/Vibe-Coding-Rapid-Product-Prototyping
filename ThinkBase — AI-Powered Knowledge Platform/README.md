@@ -9,7 +9,7 @@ The focus of this prototype is **concept validation, UX exploration, and system 
 
 **A demo of this prototype is available at the link below:**
 
-🔗 https://drive.google.com/drive/u/1/folders/1OZcE9RxKjVH4yjJKKRT_-dn7PIkA-QZJ
+🔗  https://drive.google.com/your-demo-link
 
 > _Note: The demo is hosted on Google Drive for easy viewing._
 
