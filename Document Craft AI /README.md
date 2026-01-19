@@ -120,9 +120,6 @@ Rather than generating raw text, the platform produces **structured, presentatio
 9. **Thank You Slide**
 
 ---
-
-## 🛠️ Technical Architecture (MVP)
-
 ### Core Technology Stack
 
 - **Frontend:** React (Single-Page App)
