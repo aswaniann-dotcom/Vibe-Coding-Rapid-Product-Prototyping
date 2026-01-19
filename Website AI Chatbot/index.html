@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website AI Chatbot</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Website AI Chatbot</h1>
+            <p>Train a chatbot using a website URL, a document, or pasted text, and get immediate answers.</p>
+        </div>
+        <button id="new-analysis-button" class="hidden">Start New Analysis</button>
+    </header>
+    <main>
+        <section id="input-container">
+            <form id="input-form">
+                <div id="input-tabs">
+                    <button type="button" class="tab-button active" data-tab="url">URL</button>
+                    <button type="button" class="tab-button" data-tab="file">File</button>
+                    <button type="button" class="tab-button" data-tab="text">Text</button>
+                </div>
+
+                <div id="url-panel" class="input-panel active">
+                    <input type="url" id="url-input" placeholder="https://example.com" aria-label="Website URL">
+                </div>
+                <div id="file-panel" class="input-panel">
+                    <input type="file" id="file-input" class="hidden" accept=".txt,.md,.html,.js,.css,.json">
+                    <label for="file-input" class="file-label">Choose a file...</label>
+                    <span id="file-name">No file selected</span>
+                </div>
+                <div id="text-panel" class="input-panel">
+                     <textarea id="text-input" placeholder="Paste your text content here..." rows="6" aria-label="Pasted Text"></textarea>
+                </div>
+                
+                <button type="submit" id="submit-button">Analyze Content</button>
+            </form>
+        </section>
+
+        <div id="loading-indicator" class="hidden" role="status" aria-live="polite">
+            <div class="spinner"></div>
+            <p>Analyzing content...</p>
+        </div>
+
+        <section id="results-section" class="hidden">
+            <h2 id="analysis-source"></h2>
+            <div id="summary-container">
+                <h3>Summary</h3>
+                <p id="summary-content"></p>
+            </div>
+            <button id="ask-question-button">Ask a Question</button>
+        </section>
+
+        <section id="chat-section" class="hidden">
+             <div id="chat-container">
+                <h3>Ask a Question</h3>
+                <div id="chat-history" aria-live="polite"></div>
+                <div id="suggested-questions-container"></div>
+                <form id="chat-form" aria-label="Chat with content">
+                    <input type="text" id="chat-input" placeholder="Ask a follow-up question..." disabled aria-label="Chat input">
+                    <button type="submit" id="chat-send-button" disabled>Send</button>
+                </form>
+            </div>
+        </section>
+        
+        <div id="error-container" class="hidden" role="alert"></div>
+    </main>
+
+    <script type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

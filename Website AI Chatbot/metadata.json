@@ -1,0 +1,5 @@
+{
+  "name": "Website AI Chatbot",
+  "description": "Train a chatbot using a website URL, a document, or pasted text, and get immediate answers.",
+  "requestFramePermissions": []
+}
