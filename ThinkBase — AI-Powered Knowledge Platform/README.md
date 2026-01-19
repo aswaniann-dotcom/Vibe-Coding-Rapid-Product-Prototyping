@@ -5,13 +5,14 @@ This repository contains a **rapid prototype of an AI-powered knowledge platform
 The focus of this prototype is **concept validation, UX exploration, and system thinking**, rather than production-ready implementation.
 
 ---
+
 ## 🎥 Prototype Demo
 
 **A demo of this prototype is available at the link below:**
 
-🔗  https://drive.google.com/your-demo-link
+[🔗 https://drive.google.com/your-demo-link](https://drive.google.com/drive/folders/1OZcE9RxKjVH4yjJKKRT_-dn7PIkA-QZJ)
 
-> _Note: The demo is hosted on Google Drive for easy viewing._
+> _Note: The demo is hosted on Google Drive for easy access._
 
 ---
 ## 🎯 Problem Statement
