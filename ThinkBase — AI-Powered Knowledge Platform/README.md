@@ -5,7 +5,15 @@ This repository contains a **rapid prototype of an AI-powered knowledge platform
 The focus of this prototype is **concept validation, UX exploration, and system thinking**, rather than production-ready implementation.
 
 ---
+## 🎥 Prototype Demo
 
+**A demo of this prototype is available at the link below:**
+
+🔗 [https://drive.google.com/your-demo-link](https://drive.google.com/drive/folders/1OZcE9RxKjVH4yjJKKRT_-dn7PIkA-QZJ?q=sharedwith:public%20parent:1OZcE9RxKjVH4yjJKKRT_-dn7PIkA-QZJ)
+
+> _Note: The demo is hosted on Google Drive for easy viewing._
+
+---
 ## 🎯 Problem Statement
 
 Teams generate large volumes of unstructured information across documents, emails, meeting notes, and links. Over time, critical decisions, action items, and institutional knowledge become fragmented and hard to retrieve.
